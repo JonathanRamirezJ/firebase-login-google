@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My App</title>
+  </head>
+  <body>
+    <h1>Inicia sesión</h1>
+    <button id="login">Inicia con Google</button>
+    <button id="save">Guardar</button>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBmwwDI4kUonYqt6fSxEU2oS-gxPX72I_8",
+        authDomain: "my-app-firebase-e59ab.firebaseapp.com",
+        databaseURL: "https://my-app-firebase-e59ab.firebaseio.com",
+        projectId: "my-app-firebase-e59ab",
+        storageBucket: "my-app-firebase-e59ab.appspot.com",
+        messagingSenderId: "847193370868"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
